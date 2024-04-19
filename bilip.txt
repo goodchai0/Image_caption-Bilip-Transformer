@@ -6,6 +6,7 @@ Flask-Cors==4.0.0
 numpy
 setuptools
 tokenizers
+poetry
 # Additional troubleshooting steps if encountering issues with tokenizers package
 # - Ensure proper permissions on installation directory
 # - Install numpy: pip install numpy

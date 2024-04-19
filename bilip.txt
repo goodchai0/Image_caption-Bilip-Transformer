@@ -2,4 +2,13 @@ Flask==2.0.2
 transformers==4.12.0
 googletrans==4.0.0-rc1
 Pillow==9.0.0
-Flask-Cors
+Flask-Cors==3.1.1
+
+# Additional troubleshooting steps if encountering issues with tokenizers package
+# - Ensure proper permissions on installation directory
+# - Install numpy: pip install numpy
+# - Update pip and setuptools: pip install --upgrade pip setuptools
+# - Install tokenizers from source: pip install --no-binary tokenizers tokenizers
+# - Check Rust installation
+# - Check system dependencies
+# Retry installation after trying these steps

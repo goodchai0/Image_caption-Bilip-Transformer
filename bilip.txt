@@ -4,6 +4,8 @@ googletrans==4.0.0-rc1
 Pillow==9.0.0
 Flask-Cors==4.0.0
 numpy
+--upgrade pip setuptools
+--no-binary tokenizers tokenizers
 # Additional troubleshooting steps if encountering issues with tokenizers package
 # - Ensure proper permissions on installation directory
 # - Install numpy: pip install numpy
